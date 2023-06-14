@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+}
+
+.btn {
+  /* padding-left: 30px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 35px; */
+  padding: 20px 25px 20px 25px;
+  padding: 5px 12px;
+  font-size: 20px;
+  background-color: aqua;
+  color: white;
+  font-weight: bold;
+
+  /* border-width: 5px;
+    border-style: dotted;
+    border-color: red; */
+
+  border: 5px solid red;
+
+  border: none;
+
+  margin: 50px 20px;
+  /* width: 500px; */
+}
+input {
+  border: 1px solid green;
+  border-radius: 20px;
+}
+
+div {
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+  margin: 50px;
+  padding: 70px;
+}
+.one {
+  box-sizing: content-box; /*default */
+  /* actual width - 420px */
+}
+.two {
+  box-sizing: border-box;
+  /* appear smaller */
+}

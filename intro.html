@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Intro</title>
+    <style>
+        /* Internal CSS */
+        h1 {
+            color: green;
+            font-size: 10px;
+        }
+
+        a {
+            font-size: 30px;
+            background-color: white;
+        }
+    </style>
+    <link rel="stylesheet" href="./intro.css">
+</head>
+
+<body>
+    <!-- Coment in HTML -->
+    <h1>Cascading Style Sheet</h1>
+    <p>Selector</p>
+    <p>Property</p>
+    <p>Value</p>
+    <h2>Where we write our styles</h2>
+    <p style="color:green;font-size: 50px; background-color: white;" id="paragraph" class="sentence">Inline CSS - styles
+        as an attribute</p>
+    <p>Internal CSS - stlyes within a style element usually placed inside the head element</p>
+    <p>External CSS - stlyes in a .css file. This file must be linked to the html file</p>
+    <a href="#">Anchor Link</a>
+    <span>Span Element</span>
+    <h2>CSS Selectors</h2>
+    <h3>Level 3 heading- Descendant Selectors</h3>
+    <ul>
+        <h3 class="selector">Direct Child </h3>
+        <li>
+            <h3 class="selector">Simple Selectors</h3>
+            <ul>
+                <li>Element/Tag name selector</li>
+                <li class="simple-selector">Class Selector</li>
+
+                <li>Id Selector</li>
+                <li class="sub-title">Universal selector</li>
+                <li>Grouping Selector</li>
+            </ul>
+        </li>
+        <li>
+            <h3 class="selector sub-title">Combinator Selectors</h3>
+            <ul>
+                <li>Descendant selector(space)</li>
+                <li>Child selector(>)</li>
+                <li>Adjacent Selector(+)</li>
+                <li>General Sibling Selector(~)</li>
+            </ul>
+        </li>
+        <li>
+            <h3 class="selector sub-title">Pseudo-class Selectors</h3>
+
+        </li>
+        <li>
+            <h3 class="selector">Pseudo-element Selectors</hh3>
+        </li>
+        <li>
+            <h3 class="selector" id="atribute-selector">Attribute Selectors</h3>
+            <input type="text" name="username">
+            <input type="text" name="email">
+        </li>
+    </ul>
+
+    <!-- cascading, inheritance , specificity -->
+
+    <!-- typography -->
+
+
+
+</body>
+
+</html>

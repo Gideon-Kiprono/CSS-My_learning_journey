@@ -1,0 +1,57 @@
+body {
+    background-color: aquamarine;
+    font-family: sans-serif;
+    color: white;
+  }
+  /* .simple-selector {
+    font-weight: bold;
+  }
+  .selector {
+    color: red;
+  }
+  .sub-title {
+    background-color: white;
+  }
+  #atribute-selector {
+    color: blueviolet;
+    font-size: 26px;
+  }
+  * {
+    color: grey;
+  }
+  .selector,
+  p,
+  a {
+    font-weight: 900;
+    background-color: blue;
+  } */
+  ul h3 {
+    color: yellow;
+  }
+  ul > h3 {
+    color: brown;
+  }
+  input[name="username"] {
+    padding: 30px;
+    background-color: green;
+  }
+  #paragraph {
+    font-weight: bold;
+    background-color: red;
+    color: blue;
+  }
+  
+  .sentence {
+    background-color: yellow;
+  }
+  /* ORDER OF SPECIFICITY */
+  
+  /****** considering where you've written your css ****/
+  /* 1 - inline css */
+  /* 2 - internal css  */
+  /* 3 - external css ------- */
+  
+  /* ******** considering the selector used  *********/
+  /* 1 - id selector */
+  /* 2 - class sector ----- */
+  /* 3 - element sector */
